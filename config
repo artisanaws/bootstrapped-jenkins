@@ -1,0 +1,11 @@
+# NOTE: This modified config file disables StrictHostKeyChecking and
+# allows Jenkins to connect to ssh://git-codecommit.[AWS_REGION].amazonaws.com
+# without it first being added to the known hosts file (which would
+# require access to the the JenkinsHost filesystem.
+
+# NOTE: This file should be saved to /etc/ssh/ssh_config with 644 root:root perms
+
+    StrictHostKeyChecking no
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
