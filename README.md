@@ -1,6 +1,6 @@
 # bootstrapped-jenkins
 
-The files in this repository build a Jenkins server and disable the standard Startup Wizard. The server is also bootstrap with a variety of common plugins. Note: this dockerfile builds off of a base image that includes the /usr/local/bin/install-plugins.sh. This script has since been replaced with the jenkins-cli.
+The files in this repository build a Jenkins server and disable the standard Startup Wizard. The server is also bootstrapped with a variety of common plugins. Note: this dockerfile builds off of a base image that includes the /usr/local/bin/install-plugins.sh. This script has since been replaced with the jenkins-cli.
 
 To build and run this dockerfile, use the following commands:
 
